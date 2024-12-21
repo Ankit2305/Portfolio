@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Mulish", serif;      
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    justify-content: center; /* Centers the div vertically */
+    align-items: center;    /* Centers the div horizontally */
+    min-height: 100vh;      /* Ensures the body takes full height of the viewport */
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+header {
+    display: flex;
+    justify-content: flex-start;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    align-items: start;
+    padding: 10px;
+    padding-left: 20px;
+}
+
+header img {
+    height: 32px;
+    width: 32px;
+}
+
+main {
+    text-align: center;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+  }
+
+h1 {
+    font-weight: 200;
+    line-height: 200%;
+}
